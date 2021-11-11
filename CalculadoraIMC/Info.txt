@@ -1,0 +1,11 @@
+En la pantalla principal:
+  * Se agrega el logo.
+  * Se reduce el codigo mejorando las funciones y el aspecto.
+
+En la calculadora:
+  * Se mejora la distribución
+  * Se agregan margenes a los botones
+  * Se reemplaza la tabla de IMC que era una imagen por una tabla de texto
+  * Se intercambia de posicion la tabla por la de los resultados para una mejor presentación
+  * Se elimina la palabra resultado y se agrega un mensaje informando que Alli se veran los resultados
+  * Se adiciona color a los resultados de acuerdo al IMC
