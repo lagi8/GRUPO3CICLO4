@@ -3,365 +3,474 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="20dp">
-
+        android:layout_height="wrap_content"
+        android:fadingEdge="horizontal|vertical|none"
+        android:orientation="vertical">
+        <!--- Titulo -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/titulo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Calculadora de IMC"
+                android:text="Ingrese sus datos"
                 android:textColor="#117CD1"
                 android:textSize="40sp"
                 android:textStyle="bold" />
         </LinearLayout>
-
+        <!--- Toma de datos -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_weight="1"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                <TextView
+                    android:id="@+id/Altura"
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="end"
+                    android:text="Altura: "
+                    android:textColor="#117CD1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editaAltura"
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:orientation="horizontal">
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textColor="#606CBC"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
-                    <TextView
-                        android:id="@+id/Altura"
-                        android:layout_width="2dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1.5"
-                        android:gravity="end"
-                        android:text="Altura: "
-                        android:textColor="#117CD1"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/editaAltura"
-                        android:layout_width="2dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:ems="10"
-                        android:gravity="center"
-                        android:inputType="numberDecimal"
-                        android:textColor="#606CBC"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/cm"
-                        android:layout_width="2dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="cm"
-                        android:textColor="#117CD1"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                <TextView
+                    android:id="@+id/cm"
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="horizontal">
-
-
-                    <TextView
-                        android:id="@+id/Peso"
-                        android:layout_width="2dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1.5"
-                        android:gravity="end"
-                        android:text="Peso:"
-                        android:textColor="#117CD1"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/editaPeso"
-                        android:layout_width="2dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:ems="10"
-                        android:gravity="center"
-                        android:inputType="numberDecimal"
-                        android:textColor="#606CBC"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/Kg"
-                        android:layout_width="2dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Kg"
-                        android:textColor="#117CD1"
-                        android:textSize="24sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="2"
-                android:padding="3dp">
-
-                <Button
-                    android:id="@+id/btn_enviar"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:shadowColor="#117CD1"
-                    android:text="Calcular"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20sp"
+                    android:text="cm"
+                    android:textColor="#117CD1"
+                    android:textSize="34sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
 
+                <TextView
+                    android:id="@+id/Peso"
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="end"
+                    android:text="Peso:"
+                    android:textColor="#117CD1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editaPeso"
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:textColor="#606CBC"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/Kg"
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kg"
+                    android:textColor="#117CD1"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!--- Boton Calcular -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_enviar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shadowColor="#117CD1"
+                android:text="Calcular"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <!--- Resultados -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/ralla"
+            <!--- Titulo Resultados -->
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="________________________________________________________________"
-                android:textColor="#070707"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/result"
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Resultado:"
+                    android:textColor="#009688"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <!--- Imprimir Resultados -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Resultado:"
-                android:textColor="#009688"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-        </LinearLayout>
+                android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/suResultado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#11AC17"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/estado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_vertical"
+                    android:text=""
+                    android:textColor="#11AC17"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/suResultado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text=""
-                android:textColor="#11AC17"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/estado"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center|center_vertical"
-                android:text=""
-                android:textColor="#11AC17"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
+            </LinearLayout>
         </LinearLayout>
         <!--- Tabla IMC -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            android:layout_weight="5">
-            <!--- Los textos iniciales -->
+            android:orientation="vertical"
+            android:padding="10dp">
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:layout_weight="1">
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:background="@color/md_grey_300"
+                    android:fadingEdge="horizontal|vertical|none"
+                    android:gravity="center"
+                    android:text="Clasificación"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/md_grey_300"
+                    android:gravity="center"
+                    android:text="ICM"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
 
                 <TextView
                     android:id="@+id/flecha1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center|end"
+                    android:gravity="center"
                     android:text=""
-                    android:textColor="#FF1100"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
 
                 <TextView
-                    android:id="@+id/flecha2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center|end"
-                    android:text=""
-                    android:textColor="#FF9800"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:background="@color/md_orange_300"
+                    android:fadingEdge="horizontal|vertical|none"
+                    android:gravity="center"
+                    android:text="Bajo Peso"
+                    android:textSize="18sp">
+
+                </TextView>
 
                 <TextView
-                    android:id="@+id/flecha3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center|end"
-                    android:text=""
-                    android:textColor="#4CAF50"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/md_orange_300"
+                    android:gravity="center"
+                    android:text="menor a 18,50"
+                    android:textSize="18sp">
 
-                <TextView
-                    android:id="@+id/flecha4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center|end"
-                    android:text=""
-                    android:textColor="#FF9800"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/flecha5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center|end"
-                    android:text=""
-                    android:textColor="#FF1100"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-            <!--- La tabla -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_weight="0.1">
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:foregroundGravity="center"
-                    app:srcCompat="@drawable/imc" />
-            </LinearLayout>
-            <!--- Los textos iniciales -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="1">
+                </TextView>
 
                 <TextView
                     android:id="@+id/flecha11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center|start"
+                    android:gravity="center"
                     android:text=""
-                    android:textColor="#FF1100"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/flecha2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:background="@color/md_green_300"
+                    android:fadingEdge="horizontal|vertical|none"
+                    android:gravity="center"
+                    android:text="Normal"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/md_green_300"
+                    android:gravity="center"
+                    android:text="18,50 - 24,99"
+                    android:textSize="18sp">
+
+                </TextView>
 
                 <TextView
                     android:id="@+id/flecha22"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center|start"
+                    android:gravity="center"
                     android:text=""
-                    android:textColor="#FF9800"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/flecha3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:background="@color/md_orange_300"
+                    android:fadingEdge="horizontal|vertical|none"
+                    android:gravity="center"
+                    android:text="Sobrepeso"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/md_orange_300"
+                    android:gravity="center"
+                    android:text="25,00 - 29,99"
+                    android:textSize="18sp">
+
+                </TextView>
 
                 <TextView
                     android:id="@+id/flecha33"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center|start"
+                    android:gravity="center"
                     android:text=""
-                    android:textColor="#4CAF50"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/flecha4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="3"
+                    android:background="@color/md_red_500"
+                    android:fadingEdge="horizontal|vertical|none"
+                    android:gravity="center"
+                    android:text="Sobrepeso"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/md_red_500"
+                    android:gravity="center"
+                    android:text="Mayor a 29,99"
+                    android:textSize="18sp">
+
+                </TextView>
 
                 <TextView
                     android:id="@+id/flecha44"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center|start"
+                    android:gravity="center"
                     android:text=""
-                    android:textColor="#FF9800"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp">
 
-                <TextView
-                    android:id="@+id/flecha55"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center|start"
-                    android:text=""
-                    android:textColor="#FF1100"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
+                </TextView>
+
             </LinearLayout>
+
+
         </LinearLayout>
+        <!--- Boton Volver -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1"
-            android:padding="30dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btn_volver"
@@ -374,15 +483,5 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="30">
-
-
-        </LinearLayout>
-
-
     </LinearLayout>
-
 </ScrollView>
