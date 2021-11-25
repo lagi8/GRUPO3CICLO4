@@ -4,63 +4,161 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/grey_200"
+    android:orientation="vertical"
+    android:padding="25dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/logo" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="4"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/titulo2"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_gravity="center"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="Indice de Masa Corporal"
-            android:textColor="#117CD1"
+            android:gravity="bottom|center"
+            android:text="Control de"
+            android:textColor="@color/blue_grey_900"
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:text="Indice de Masa Corporal"
+            android:textColor="@color/blue_grey_900"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            app:srcCompat="@drawable/logo_gris" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/edit_text_correo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/borde_curvo"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Ingrese su correo"
+            android:inputType="textEmailAddress" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </View>
+
+
+        <EditText
+            android:id="@+id/edit_text_clave"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:gravity="center"
+            android:background="@drawable/borde_curvo"
+            android:hint="Ingrese su clave"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp">
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <Button
-            android:id="@+id/btn_ir"
+            android:id="@+id/btn_ingresar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:shadowColor="#117CD1"
-            android:text="Ir a Calculadora"
-            android:textColor="#FFFFFF"
+            android:text="Iniciar Sección"
+            android:background="@drawable/borde_curvo"
+            android:textColor="@color/white_1000"
+            android:layout_marginBottom="10dp"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_login_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#117CD1"
+            android:text="Iniciar con Google"
+            android:background="@drawable/borde_curvo"
+            android:textColor="@color/white_1000"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_registrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#117CD1"
+            android:text="Registrarse"
+            android:background="@drawable/borde_curvo"
+            android:textColor="@color/white_1000"
+            android:textSize="20sp" />
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5">
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Olvide mi contraseña" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="From" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Group 3" />
     </LinearLayout>
 
 </LinearLayout>

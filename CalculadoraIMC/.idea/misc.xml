@@ -3,12 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalculadoraIMC/app/src/main/res/layout-land/activity_segunda.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalculadoraIMC/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalculadoraIMC/app/src/main/res/layout/activity_segunda.xml" value="0.18" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalculadoraIMC/app/src/main/res/layout/activity_segunda1.xml" value="0.1675213675213675" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalculadoraIMC/app/src/main/res/layout/activity_tercera.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CalculadoraIMC/app/src/main/res/layout/prueba.xml" value="0.12" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MiCalculadora - copia/app/src/main/res/layout/activity_agregar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MiCalculadora - copia/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MiCalculadora/app/src/main/res/layout/activity_agregar.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MiCalculadora/app/src/main/res/layout/activity_calculadora.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MiCalculadora/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable-xxxhdpi/borde_formulario.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable-xxxhdpi/borde_historico.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable-xxxhdpi/borde_plano_green.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable-xxxhdpi/borde_plano_orange.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable-xxxhdpi/borde_plano_red.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable/borde.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/drawable/borde_plano.xml" value="0.2203125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/layout/activity_agregar.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/layout/activity_calculadora.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/layout/activity_inicio_seccion.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/layout/activity_usuario.xml" value="0.3146417445482866" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Mi_Calculadora_IMC/app/src/main/res/layout/layout_para_item.xml" value="0.25" />
       </map>
     </option>
   </component>

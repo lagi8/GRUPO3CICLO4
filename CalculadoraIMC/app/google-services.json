@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "842714554476",
+    "project_id": "micalculadora-bf9e8",
+    "storage_bucket": "micalculadora-bf9e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842714554476:android:d16208e63bacebcc8bb849",
+        "android_client_info": {
+          "package_name": "co.edu.unab.micalculadora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842714554476-emq9lthunme475akj5f1s850rcq9374s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.unab.micalculadora",
+            "certificate_hash": "b0fdae85f9b20266b2da832bb8e3833a528423a4"
+          }
+        },
+        {
+          "client_id": "842714554476-86q6v7s02ee3vibul4lh56rjra738ohf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc4LAeFDUMlECyTPCOfLckMPEzP7igvu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842714554476-86q6v7s02ee3vibul4lh56rjra738ohf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
