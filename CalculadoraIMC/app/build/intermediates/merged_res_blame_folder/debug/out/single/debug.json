@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_logo_gris.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-hdpi\\logo_gris.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_usuario.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout\\activity_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_borde_formulario.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\borde_formulario.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_para_item.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout\\layout_para_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_logo_gris.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-ldpi\\logo_gris.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_logo.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_borde_historico.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\borde_historico.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_logo_gris.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xhdpi\\logo_gris.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_segunda.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout-land\\activity_segunda.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_logo_gris.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-mdpi\\logo_gris.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_borde_plano_red.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\borde_plano_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_logo.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_logo_gris.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxhdpi\\logo_gris.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_borde_plano_orange.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\borde_plano_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_agregar.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout\\activity_agregar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable_contacto.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable\\contacto.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_logo_gris.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\logo_gris.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable_borde_curvo.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable\\borde_curvo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_borde_plano_green.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-xxxhdpi\\borde_plano_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round_background.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round_background.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable_imc.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable\\imc.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_segunda.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout\\activity_segunda.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round_foreground.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\drawable_borde_plano_titulo.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\drawable\\borde_plano_titulo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_calculadora.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CalculadoraIMC\\app\\src\\main\\res\\layout\\activity_calculadora.xml"
+    }
+]
